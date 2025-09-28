@@ -62,7 +62,7 @@ public:
 };
 
 // 자식 클래스 (파생 클래스)
-class Student : ** private ** Person {
+class Student : private Person {
 private:
     string major;
 
